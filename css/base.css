@@ -1,0 +1,230 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.clear-float:after{
+	display: block;
+	height: 0;
+	width: 0;
+	content: " ";
+	clear: both;
+}
+
+.price-left{
+	float: left;
+}
+
+.price-right{
+	float: right;
+}
+
+#main{
+	/*padding-right: 200px;
+	padding-left: 180px;*/
+	/*padding-bottom: 200px;*/
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+#nav{
+	height: 41px;
+	background-color: gray;
+	margin-top: 0;
+	width: 1200px;
+}
+
+#nav ul{
+	list-style-type: none;
+}
+
+#leftnav li{
+	float: left;
+}
+
+.navcont a:link, .navcont a:visited{
+	display: block;
+	width: 120px;
+	font-size: 15px;
+	font-weight: bold;
+	text-decoration: none;
+	color: white;
+	text-align: center;
+	padding: 10px;
+
+}
+
+.navcont a:hover{
+	background-color: black;
+}
+
+#rightnav li{
+	float: right;
+}
+
+#sort{
+	width: 1128px;
+	margin: 36px 36px 0 36px;
+}
+
+#sort table:after{
+	display: block;
+	content: " ";
+	clear: both;
+}
+
+#sort ul{
+	list-style-type: none;
+	margin: 0;
+
+}
+
+#sort:after{
+	display: block;
+	content: "";
+	clear: both;
+}
+
+#sorth{
+	height: 45px;
+	border-bottom:4px black solid;
+}
+
+#sorth li{
+	float: left;
+}
+
+#sorth li a:link{
+	display: block;
+	font-size: 20px;
+	padding-top: 10px;
+	width: 120px;
+	height: 45px;
+	color: black;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+}
+
+#sorth li a:visited {
+	color: black;
+}
+
+#sorth li a:hover{
+	background-color: black;
+	color: white;
+}
+
+#sort table{
+	clear: both;
+	margin:0 ;
+	width: 1128px;
+}
+
+.stabler{
+	width: 1128px;
+	height: 40px;
+	border-bottom: 1px #C3C3C3 solid;
+}
+
+.stabler th{
+	width: 120px;
+	padding: 10px 30px 10px 30px;
+	font-size: 15px;
+	text-align: center;
+	background-color: #D3D3D3;
+}
+
+.stabler ul{
+	list-style-type: none;
+}
+
+.stabler ul li{
+	float: left;
+}
+
+.stabler ul li:last-child{
+	float: right;
+}
+
+.stabler ul li a:link ,.stabler ul li a:hover ,.stabler ul li a:visited{
+	padding: 5px;
+	color: black;
+	text-decoration: none;
+}
+
+/*.stabler ul li a:visited{
+	color: red;
+}*/
+
+footer{
+	margin-top: 60px;
+	width: 1200px;
+}
+
+.foots{
+	width: 276px;
+	float: left;
+	position: relative;
+}
+
+.foots img{
+	width: 36px;
+	height: 36px;
+	margin-left: 50%;
+	margin-top: 30%;
+	transform: translateX(-18px);
+}
+
+.footfirst{
+	margin-top: 6px;
+	margin-left: 50%;
+	transform: translateX(-48px);
+	margin-bottom: 0;
+	font-size: 12px;
+}
+
+.footsecond{
+	margin-left: 48px;
+	margin-top: 0;
+	font-size: 12px;
+}
+
+.last-foot{
+	/*height: 50px;*/
+	background: black;
+	color: white;
+	position: relative;
+}
+
+.last-foot-left p{
+	font-size: 40px;
+    padding: 0px;
+}
+
+.last-foot-left-p1{
+	margin: 0 24px -24px 24px;
+}
+
+.last-foot-left-p2{
+	margin: 0 24px 0px 24px;
+}
+
+.last-foot-right{
+	position: absolute;
+	right: 10%;
+	bottom: 0;
+	font-size: 16px;
+}
+
+.last-foot-right p{
+	margin-left: 24px;
+}
+
+.foot-webside{
+	position: absolute;
+	bottom: 0;
+	font-size: 16px;
+	left: 16%;
+}

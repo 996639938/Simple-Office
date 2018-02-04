@@ -1,0 +1,233 @@
+#nav-head{
+	height: 150px;
+	/*background: yellow;*/
+	width: 1200px;
+	border-bottom: 1px gray solid;
+}
+
+#big-title{
+	float: left;
+}
+
+#big-title p{
+	font-size: 70px;
+	margin: 0 24px -36px 24px;
+	padding: 0px;
+}
+
+#small-head{
+	float: left;
+	margin: 72px 0 0 12px;
+}
+
+#small-head p{
+	font-size: 16px;
+	margin: 0 0 -6px 0;
+	color: gray;
+}
+
+#nav-search{
+	float: right;
+	margin: 60px 36px 0 0;
+}
+
+#nav-search input{
+	height: 48px;
+	float: left;
+	outline: none;
+	font-size: 24px;
+	border:2px black solid;
+/*	border-radius: 2px;*/
+}
+
+#nav-search input[type="text"]{
+	width: 360px;
+	border-right: none;
+}
+
+#nav-search input[type="image"]{
+	border-left: none;
+	background: white;
+	/*background: url(file:///G:/study/%E5%89%8D%E7%AB%AF/%E5%9B%BD%E5%88%9B/picture/search.png);*/
+}
+
+#nav-search p{
+	font-size: 16px;
+}
+
+#nav-search span{
+	display: inline-block;
+	padding-right: 6px;
+}
+
+#more-index{
+	font-size: 20px;
+	color: gray;
+	padding-left: 24px;
+	width: 1128px;
+}
+
+#main-body{
+	margin-left: 24px;
+	width: 1128px;
+}
+
+
+#left-part{
+	width: 720px;
+	height: 2160px;
+	float: left;
+	/*background: blue;*/
+}
+
+#big-left-body{
+	width: 720px;
+	height: 360px;
+	/*background: yellow;*/
+	border:1px solid black;
+	/*float: left;*/
+}
+
+#left-head-part{
+	float: left;
+}
+
+#left-head-part p{
+	color: gray;
+	font-size: 14px;
+	margin-bottom: -4px;
+}
+
+#right-head-part{
+	float: right;
+	margin-top: 12px;
+}
+
+#big-left-body img{
+	margin: 12px;
+	height: 288px;
+	width: 696px;
+}
+
+#img-part{
+	margin: 19px;
+}
+
+.img-part-big{
+	width: 672px;
+	height: 378px;
+}
+
+.img-part-small{
+	width: 223px;
+	height: 126px;
+	margin-right: -3px;
+	padding: 0;
+}
+
+#right-part{
+	float: right;
+	/*background: blue;*/
+	height: 2160px;
+	/*overflow: hidden;*/
+}
+
+#big-right-body{
+	/*float: right;*/
+	/*background: yellow;*/
+	width: 396px;
+	border:1px solid black;
+	/*height: 400px;*/
+	padding: 19px;
+}
+
+#detail-title{
+	color: gray;
+	font-size: 20px;
+}
+
+.detail-p{
+	color: black;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.detail-p span{
+	display: inline-block;
+	margin-right: 6px;
+	border:1px black solid;
+}
+
+#tobuy{
+	border:none;
+	background: red;
+	color: white;
+	font-size: 20px;
+	width: 360px;
+	height: 60px;
+}
+
+#store-recommend{
+	width: 396px;
+	height: 1790px;
+	border:1px solid black;
+	margin-top: 6px;
+	overflow: hidden;
+}
+
+#store-recommend h3{
+	margin: 12px 0 0 12px;
+	padding: 0;
+}
+
+#keeper{
+	width: 396px;
+	text-align: center;
+	font-size: 30px;
+	/*margin: -10px 0 0 0;*/
+}
+
+.store-list{
+	margin: 0 5px 12px;
+	width: 386px;
+	height: 276px;
+	border:1px solid black;
+}
+
+.store-list img{
+	height: 216px;
+	width:384px;
+}
+
+.store-list p{
+	padding: 0 6px;
+}
+
+.list-price{
+	width: 384px;
+}
+
+.price-font{
+	color: red;
+}
+
+#favorite{
+	margin-top: 36px;
+	/*border:1px solid black;*/
+	clear: both;
+}
+
+.fav-list{
+	width: 211px;
+	float: left;
+	margin-left: 12px;
+}
+
+.fav-list p{
+	font-size: 12px;
+}
+
+.fav-list img{
+	width: 211px;
+	height: 119px;
+}

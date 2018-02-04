@@ -1,0 +1,158 @@
+#bottomnav{
+	margin-top: 0.5em;
+	margin-left: 2em;
+	font-size: 10px;
+	width: 1128px;
+}
+
+#bottomnav:after{
+	display: block;
+	content: "";
+	clear: both;
+}
+
+.index{
+	text-decoration: none;
+	color: black;
+}
+
+.lable{
+	display: inline-block;
+	border: 1px solid black;
+	margin-left: 1em;
+}
+
+.lablesecondtext{
+	color: red;
+}
+
+.lablecancel{
+	width: 20px;
+	height: 20px;
+	background: black;
+	color: white;
+	border: 1px white solid;
+	margin-left: 5px;
+}
+
+#searchlable{
+	display: inline-block;
+	float: right;
+}
+
+#searchlable input[type="text"]{
+	border-radius: 10px 0 0 10px;
+	height: 30px;
+	margin-right: 0;
+	float: right;
+	outline: none;
+}
+
+#searchlable input[type="submit"]{
+	border-radius: 0 10px 10px 0;
+	height: 30px;
+	margin-left: 0;
+	float: right;
+	background: lightgray;
+	color: white;
+	outline: none;
+}
+
+#sortnav{
+	width: 1128px;
+	height: 48px;
+	border:2px solid black;
+	margin: 0 36px 0 36px;
+}
+
+#sortnav:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+
+#sortnav ul{
+	list-style-type: none;
+}
+
+#sortnav li{
+	float: left;
+	display: block;
+	height: 44px;
+	/*background: red;*/
+	padding:12px 0px 6px 48px;
+	font-size: 16px;
+	color: black;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+#sortnav a{
+	height: 44px;
+/*	background: red;*/
+	padding:12px 60px 6px 60px;
+	font-size: 16px;
+	color: black;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+#resulttotal{
+	width: 1128px;
+	margin: 36px 36px 0 36px;
+}
+
+#resulttotal:after{
+	display: block;
+	content: "";
+	clear: both;
+}
+
+.result{
+	width: 324px;
+	height: 516px;
+	border:1px solid black;
+	margin-right: 24px;
+	margin-left: 24px;
+	margin-bottom: 36px;
+	float: left;
+}
+
+.mainimg{
+	width: 322px;
+	height: 420px;
+}
+
+.resulttitle{
+	display: inline-block;
+	margin: 3px 12px;
+	width: 300px;
+	color: gray;
+	font-size: 15px;
+	/*text-align: center;*/
+}
+
+.resultsc{
+	width: 300px;
+	margin:6px 12px;
+	font-size: 12px;
+}
+
+.resultsc a{
+	text-decoration: none;
+	color: gray;
+}
+
+.result-sc-right{
+	float: right;
+}
+
+.logoimg{
+	width: 19px;
+	height: 19px;
+}
+
+.price{
+	color: red;
+}
+
